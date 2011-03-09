@@ -1,4 +1,4 @@
-(defproject broca "1.0.0"
+(defproject broca "1.0.1"
   :description "FIXME: write"
   :dependencies [[org.clojure/clojure "1.2.0"]]
   :aot [broca.CharsetProvider])
