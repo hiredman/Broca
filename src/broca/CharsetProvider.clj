@@ -1,4 +1,4 @@
-(ns broca.CharSetProvider
+(ns broca.CharsetProvider
   (:use [broca.core :only [*charsets* *charset-debug*]])
   (:import (java.nio.charset Charset))
   (:gen-class :extends java.nio.charset.spi.CharsetProvider))

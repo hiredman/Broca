@@ -1,7 +1,7 @@
 (defproject broca "1.0.0"
   :description "FIXME: write"
   :dependencies [[org.clojure/clojure "1.2.0"]]
-  :aot [broca.CharSetProvider])
+  :aot [broca.CharsetProvider])
 
 (ns leiningen.char-set-install
   (:require [leiningen.jar]
