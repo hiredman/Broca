@@ -1,5 +1,5 @@
 (defproject broca "1.0.1"
-  :description "FIXME: write"
+  :description "broca allows you to map a charset name to another charset using binding"
   :dependencies [[org.clojure/clojure "1.2.0"]]
   :aot [broca.CharsetProvider])
 
