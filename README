@@ -1,0 +1,14 @@
+# broca
+
+broca allows you to map a charset name to another charset using binding
+
+## Usage
+
+(binding [broca.core/*charsets* {"bugs-encoding" "utf-8"}]
+  ...)
+
+## License
+
+Copyright (C) 2010 Kevin Downey
+
+Distributed under the Eclipse Public License, the same as Clojure.
